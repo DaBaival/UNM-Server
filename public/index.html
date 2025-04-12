@@ -107,32 +107,6 @@
       margin-right: 6px;
     }
 
-    footer {
-      line-height: 1.75rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 140px;
-    }
-
-    footer .social {
-      color: var(--icon-color);
-      font-size: 15px;
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-    }
-
-    footer .social i {
-      margin: 0 12px;
-    }
-
-    footer .point::before {
-      content: "·";
-      color: var(--text-color-gray);
-    }
-
     .power,
     .icp {
       font-size: 14px;
@@ -158,25 +132,7 @@
       </button> -->
     </div>
   </main>
-  <footer>
-    <div class="social">
-      <i class="fa-brands fa-github" onclick="socialJump('github')"></i>
-      <div class="point"></div>
-      <i class="fa-solid fa-house" onclick="socialJump('home')"></i>
-      <div class="point"></div>
-      <i class="fa-solid fa-envelope" onclick="socialJump('email')"></i>
-    </div>
-    <div class="power">
-      Copyright © 2020
-      <script>
-        document.write(" - " + new Date().getFullYear());
-      </script>
-      <a href="https://imsyy.top/" target="_blank">Focalors Ltd.</a>
-    </div>
-    <div class="icp">
-      <a href="https://beian.miit.gov.cn/" target="_blank">Copyright@ Focalors | Waterbreathing 2020 - 2025</a>
-    </div>
-  </footer>
+
   <script>
     // 跟随系统主题
     const darkModeMediaQuery = window.matchMedia(
@@ -200,15 +156,6 @@
     // 社交链接跳转
     const socialJump = (type) => {
       switch (type) {
-        case "github":
-          window.location.href = "https://focalors.ltd/%E4%BF%A1%E6%81%AF%E8%AF%BE%E4%B8%93%E5%8C%BA/404";
-          break;
-        case "home":
-          window.location.href = "https://www.focalors.ltd/";
-          break;
-        case "email":
-          window.location.href = "mailto:noreply@focalors.ltd";
-          break;
         default:
           break;
       }
