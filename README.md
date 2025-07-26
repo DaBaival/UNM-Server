@@ -1,3 +1,4 @@
+# 由于API拥有与当前仓库一样的功能，故项目归档停更
 <!-- Thanks to https://zhconvert.org's Chinese (China) converter ! -->
 
 <img src="./public/favicon.png" alt="logo" width="140" height="140" align="right">
